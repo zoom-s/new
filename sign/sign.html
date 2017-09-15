@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="sign-css.css">
+    <script src="sign-js.js"></script>
+</head>
+<body>
+<div id="logo">
+    <a href="">
+        <img src="../image/魅族蓝色logo.png" alt="">
+    </a>
+</div>
+<div id="bg">
+</div>
+<div id="main">
+
+    <div id="user">
+        账号登录
+    </div>
+    <div id="Verification" onclick="usersign()">
+        验证码登录
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <span id="yanzheng">
+        <img src="../sign-image/错误提示.png" alt="">
+        您输入的账号格式不正确
+   </span>
+    <br>
+    <div id="user-id">
+    <input type="text" placeholder="手机号/Flyme账号"  value="" name="" onblur="userid()" id="txt1">
+    </div>
+    <div id="password">
+        <input type="password" placeholder="密码" value="" name="">
+    </div>
+    <div id="rember">
+    <input type="checkbox" id="state">记住登录状态
+    </div>
+    <a href="">
+    <div id="sign">登&nbsp;录</div>
+    </a>
+    <div id="register">
+        <a href="">注册</a>
+    </div>
+    <div id="forget">
+        <a href="">忘记密码？</a>
+    </div>
+</div>
+<div id="main-01">
+    <div id="user-01" onclick="usersign01()">
+        账号登录
+    </div>
+    <div id="Verification-01">
+        验证码登录
+    </div>
+    <br>
+    <br>
+    <span id="yanzheng01" style="margin-top: 10px">
+        <img src="../sign-image/错误提示.png" alt="">
+        您输入的手机号格式不正确
+   </span>
+    <div id="user-id01">
+        <input type="text" value=""  placeholder="手机号"  name="" id="yanzhengma">
+    </div>
+    <div id="password-01">
+        <input type="text" placeholder="验证码" value="" name="" id="yanzhengma01">
+    </div>
+    <div id="send" onclick="send()">
+        获取验证码
+    </div>
+    <a href="">
+    <div id="sign-01">登&nbsp;录</div>
+    </a>
+    <div id="register-01">
+        <a href="">注册</a>
+    </div>
+    <div id="forget-01">
+        <a href="">忘记密码？</a>
+    </div>
+</div>
+</body>
+</html>

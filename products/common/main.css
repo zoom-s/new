@@ -1,0 +1,69 @@
+.icon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+.container {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+/**************************************   右侧手机图片展示  *************************************/
+.preview {
+    float: left;
+    width: 495px;
+    box-sizing: content-box;
+}
+.preview_booth {
+    margin: 25px 50px;
+    width: 395px;
+    height: 395px;
+}
+.preview_booth img {
+    height: 375px;
+    width: 375px;
+    vertical-align: top;
+}
+.preview .preview_thumb  ul {
+    text-align: center;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.preview .preview_thumb li {
+    display: inline-block;
+    border: 1px solid transparent;
+    cursor: pointer;
+    margin: 0 5px;
+}
+.preview .preview_thumb a {
+    display: block;
+    box-sizing: content-box;
+    padding: 5px;
+}
+.preview .preview_thumb img {
+    position: relative;
+    max-width: 75px;
+    max-height: 75px;
+}
+.preview .preview_thumb .current {
+    border-color: #dcdcdc;
+}
+.preview .preview_action {
+    padding: 5px 60px 0;
+    color: #666;
+}
+.preview .preview_action a {
+    color: #666;
+    font-size: 12px;
+    cursor: pointer;
+}
+.preview .preview_action .compare {
+
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 12px;
+}
+.preview .preview_action .compare:hover {
+    color: #00c3f5;
+}

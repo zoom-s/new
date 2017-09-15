@@ -1,0 +1,186 @@
+body{
+    margin: 0 auto;
+}
+#logo{
+    padding-top: 25px;
+    margin-left: 180px;
+}
+a{
+    text-decoration: none;
+}
+#bg{
+    margin-top: 25px;
+    min-height: 750px;
+    max-height: 1080px;
+    width: 100%;
+    background-image: url("https://uc-res.mzres.com/resources/uc/wlogin/member/images/banner.png");
+    -webkit-background-image:url("https://uc-res.mzres.com/resources/uc/wlogin/member/images/banner.png");
+    -moz-background-image: url("https://uc-res.mzres.com/resources/uc/wlogin/member/images/banner.png");
+    -ms-background-image: url("https://uc-res.mzres.com/resources/uc/wlogin/member/images/banner.png");
+    -o-background-image: url("https://uc-res.mzres.com/resources/uc/wlogin/member/images/banner.png");
+
+}
+#main{
+    width: 370px;
+    height: 505px;
+    background: white;
+    margin-top:-600px;
+    float: right;
+    margin-right: 20%;
+}
+#user{
+font-size: 20px;
+    padding-top: 50px;
+    margin-left: 60px;
+    margin-right:50px;
+    float: left;
+    color: #32a5e7;
+}
+#Verification{
+    font-size:20px ;
+    padding-top: 50px;
+
+}
+span{
+    margin-left: 60px;
+   color: red;
+    display: none;
+}
+#user-id input{
+    width: 270px;
+    height: 35px;
+
+
+}
+#user-id{
+    padding-left: 45px;
+}
+#password input{
+    width: 270px;
+    height: 35px;
+
+
+}
+#password{
+    padding-left: 45px;
+    margin-top: 18px;
+}
+#rember{
+    color: gray;
+    margin-top: 20px;
+    padding-left: 45px;
+}
+#sign{
+    width: 270px;
+    height: 47px;
+    background: #32a5e7;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    line-height: 47px;
+    margin-top: 50px;
+    margin-left:47px;
+    border-radius: 3px;
+}
+#register a{
+    text-decoration: none;
+    color: #32a5e7;
+}
+#register{
+    margin-top: 15px;
+    margin-left: 45px;
+
+}
+#forget a{
+    text-decoration: none;
+    color: #32a5e7;
+
+}
+#forget{
+    margin-top: 15px;
+   margin-right:60px;
+    float: right;
+    margin-top: -20px;
+}
+#main-01{
+    width: 370px;
+    height: 405px;
+    background: white;
+    float: right;
+    margin-right: 20%;
+    margin-top: -550px;
+    display: none;
+}
+#user-01{
+    font-size: 20px;
+    padding-top: 50px;
+    margin-left: 60px;
+    margin-right:50px;
+    float: left;
+}
+#Verification-01{
+    font-size:20px ;
+    padding-top: 50px;
+    color: #32a5e7;
+}
+#user-id01 input{
+    width: 270px;
+    height: 35px;
+}
+#user-id01{
+    margin-top: 10px;
+    padding-left: 45px;
+}
+#password-01 input{
+    width: 270px;
+    height: 35px;
+}
+#password-01{
+    margin-top: 18px;
+    padding-left: 45px;
+}
+#send{
+    width: 100px;
+    height: 39px;
+    line-height: 35px;
+    text-align: center;
+    background: white;
+    margin-top: -41px;
+    margin-left:217px;
+}
+#sign-01{
+    width: 270px;
+    height: 47px;
+    background: #32a5e7;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    line-height: 47px;
+    margin-top: 50px;
+    margin-left:47px;
+}
+#register-01 a{
+    text-decoration: none;
+    color: #32a5e7;
+}
+#register-01{
+    margin-top: 15px;
+    margin-left: 45px;
+
+}
+#forget-01 a{
+    text-decoration: none;
+    color: #32a5e7;
+
+}
+#forget-01{
+    margin-top: 15px;
+    margin-right:60px;
+    float: right;
+    margin-top: -20px;
+}
+
+
+
+
+
